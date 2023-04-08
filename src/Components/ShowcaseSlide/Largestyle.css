@@ -1,0 +1,94 @@
+.main-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.showcaseslidelargeiamge{
+    margin-bottom: -10px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.main-parent .skeleton .main-text-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-parent .skeleton .main-text-div .links{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+.titleoftheslide{
+    font-size: 60px;
+}
+.main-parent .skeleton .main-text-div .links .learnmore:hover{
+    text-decoration: underline;
+}
+.main-parent .skeleton .main-text-div .links .buy:hover{
+    text-decoration: underline;
+}
+.main-image-dijj{
+    margin-right: -1000px;
+}
+
+@media screen and (max-width: 931px) {
+    .showcaseslidelargeiamge {
+        width: 700px;
+        margin-bottom: -4px;
+    }
+    .main-parent{
+        min-height: 500px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .showcaseslidelargeiamge {
+        width: 500px;
+        margin-bottom: -4px;
+    }
+
+    .main-parent {
+        min-height: 450px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .showcaseslidelargeiamge {
+        width: 400px;
+        margin-bottom: -4px;
+    }
+    .main-parent {
+        min-height: 400px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .showcaseslidelargeiamge {
+        width: 300px;
+        margin-bottom: -39px;
+    }
+    #heu{
+        margin-left: 40px;
+    }
+
+    .main-parent {
+        min-height: 400px;
+    }
+    .titleoftheslide{
+        margin-bottom: 50px;
+        font-size: 40px;
+    }
+}

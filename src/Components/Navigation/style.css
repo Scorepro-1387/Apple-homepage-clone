@@ -1,0 +1,293 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    color: #D7D7D8;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    margin-top: -55px;
+    margin-left: -0.5px;
+    transition: 0.2s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.HamburgurMenuText{
+    transition: 0.5s;
+}
+.HamburgurMenuText:hover{
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.searchbox {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.searchbox:focus {
+    outline: none;
+    color: #fff;
+}
+
+.bag:hover {
+    letter-spacing: normal;
+}
+
+.blurrbg {
+    backdrop-filter: blur(10px);
+    margin-top: -20px;
+    z-index: 1000000000;
+    min-height: 10000vh;
+    animation: dropdown 1s ease 0s 1 normal forwards;
+}
+
+.dropdownparent {
+    display: block;
+    animation: dropdown 0.5s ease 0s 1 normal forwards;
+}
+
+.ddttletext {
+    transition: 0.5s;
+}
+
+.ddttletext:hover {
+    letter-spacing: 1px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logossss {
+    margin-right: 40px;
+}
+
+.hammenu {
+    visibility: hidden;
+}
+
+.navbar .elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .components {
+    display: flex;
+    margin: 11px;
+    white-space: nowrap;
+    transition: 0.5s;
+}
+
+.navbar .components .letters-main {
+    font-size: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .components .letters {
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navbar .components .lettersS {
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 40px;
+    white-space: nowrap;
+}
+
+.navbar .components .logos {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navbar .components .logos:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+/*  BREAK   */
+.conent-parent {
+    margin-left: 300px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1482px) {
+    .navbar .components .letters {
+        margin-left: 30px;
+    }
+
+    .navbar .components .lettersS {
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    .conent-parent {
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 1006px) {
+    .navbar .components .letters {
+        margin-left: 30px;
+    }
+
+    .navbar .components .lettersS {
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+    .conent-parent{
+        margin-left: 0px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 909px) {
+    .navbar .components .letters {
+        margin-left: 20px;
+    }
+
+    .navbar .components .lettersS {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 800px) {
+    .navbar .components .letters {
+        margin-left: 15px;
+    }
+
+    .navbar .components .lettersS {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 735px) {
+    .lettersS {
+        transition: 0s;
+        visibility: hidden;
+    }
+
+    .navbar .components .letters {
+        transition: 0s;
+        visibility: hidden;
+        position: static;
+    }
+
+    .hammenu {
+        visibility: visible;
+    }
+
+    .logosss {
+        transition: 0s;
+        visibility: hidden;
+    }
+
+    .logossss {
+        margin-right: 30px;
+    }
+
+    .navbar .components .lettersS {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .logos {
+        margin-right: -50px;
+    }
+
+}
+
+@keyframes dropdown {
+    0% {
+        opacity: 0;
+        transform: rotateX(-100deg);
+        transform-origin: top;
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateX(0deg);
+        transform-origin: top;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .logos {
+        margin-right: -90px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 640px) {
+    .logos {
+        margin-right: -130px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 620px) {
+    .logos {
+        margin-right: -150px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 600px) {
+    .logos {
+        margin-right: -200px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 540px) {
+    .logos {
+        margin-right: -250px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 485px) {
+    .logos {
+        margin-right: -300px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 440px) {
+    .logos {
+        margin-right: -350px;
+    }
+}
+
+/*  BREAK   */
+
+@media screen and (max-width: 385px) {
+    .logos {
+        margin-right: -400px;
+    }
+}
+
+/*  BREAK   */

@@ -1,0 +1,46 @@
+.lowerhalf-children p{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.first-resort{
+    display: block;
+}
+.lowerhalf-children p:hover {
+    text-decoration: underline;
+}
+.parent-div{
+    margin-right: 70px;
+}
+.first-resort{
+    display: flex;
+}
+.last-resort{
+    display: none;
+}
+.shopandlearndropdownmain{
+    animation: enterance 0.5s ease 0s 1 normal forwards;
+}
+.shopandlearndropdownmain p{
+    margin-bottom: -10px;
+}
+@keyframes enterance {
+    0% {
+		opacity: 0;
+		transform: rotateX(-100deg);
+		transform-origin: top;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateX(0deg);
+		transform-origin: top;
+	}
+}
+@media screen and (max-width: 840px) {
+    .first-resort{
+         display: none;
+    }
+    .last-resort{
+        display: block;
+    }
+}

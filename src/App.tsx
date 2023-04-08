@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import BottomInfo from './Components/BottomPage/BottomInfo';
+import NavigationBar from './Components/Navigation/NavBar';
+import AppleCard from './Components/ShowcaseSlide/AppleCard';
+import Ipad from './Components/ShowcaseSlide/Ipad';
+import IpadandWWDC from './Components/ShowcaseSlide/IpadandWWDC';
+import Iphonepro from './Components/ShowcaseSlide/Iphonepro';
+import AppleWatch from './Components/ShowcaseSlide/TheAppleWatch';
+import Normaliphone from './Components/ShowcaseSlide/ThephoneN';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="parent-of-all">
+      <div className="mainpage" style={{marginTop:"55px"}}>
+        <div className='div-for-navigation'>
+          <NavigationBar/>
+        </div>
+        <div className='div-for-home-view'>
+          <p style={{fontSize:"14px",textAlign: "center",cursor: "default"}}
+          >(This is  a clone of the apple website made by by Salar Hashemian)</p>
+        </div>
+        <Iphonepro/>
+        <Normaliphone/>
+        <AppleWatch/>
+        <Ipad/>
+        <IpadandWWDC/>
+        <AppleCard/>
+        <BottomInfo/>
+      </div>
     </div>
   );
 }
