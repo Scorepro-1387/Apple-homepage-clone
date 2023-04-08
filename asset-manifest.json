@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Apple-homepage-clone/static/css/main.4180b618.css",
+    "main.js": "/Apple-homepage-clone/static/js/main.08ff46f7.js",
+    "static/media/whitephone.png": "/Apple-homepage-clone/static/media/whitephone.a300d23f061ff9d71780.png",
+    "static/media/phonbe.png": "/Apple-homepage-clone/static/media/phonbe.28d9c8d75a8bf8f5c852.png",
+    "static/media/applewatch.png": "/Apple-homepage-clone/static/media/applewatch.72fc1cb3ba72fdaa6c75.png",
+    "static/media/gradientbow.png": "/Apple-homepage-clone/static/media/gradientbow.0314caf23b880c37939a.png",
+    "static/media/Ipad.png": "/Apple-homepage-clone/static/media/Ipad.ee16c84427020cacc27e.png",
+    "static/media/applecard.png": "/Apple-homepage-clone/static/media/applecard.19e8e1c426a00ca3803d.png",
+    "index.html": "/Apple-homepage-clone/index.html",
+    "main.4180b618.css.map": "/Apple-homepage-clone/static/css/main.4180b618.css.map",
+    "main.08ff46f7.js.map": "/Apple-homepage-clone/static/js/main.08ff46f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4180b618.css",
+    "static/js/main.08ff46f7.js"
+  ]
+}
