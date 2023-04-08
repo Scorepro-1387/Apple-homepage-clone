@@ -1,5 +1,3 @@
-<img src="AHClogo.png" width="200"/>
-
 # Clone of apple.com's homepage made with React & Typescript
 
 This is a clone of the 🍎apple🍎 website made with [React](https://react.dev/), [Typescript](https://www.typescriptlang.org/), and also with the use of [Firebase](https://firebase.google.com/) for the "Login with google" feature which isn't used in the actual apple website but it didn't hurt to add to the website.
